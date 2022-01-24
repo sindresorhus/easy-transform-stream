@@ -1,0 +1,40 @@
+{
+	"name": "easy-transform-stream",
+	"version": "0.0.0",
+	"description": "Create a transform stream using await instead of callbacks",
+	"license": "MIT",
+	"repository": "sindresorhus/easy-transform-stream",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"stream",
+		"transform",
+		"async",
+		"function",
+		"await",
+		"through"
+	],
+	"devDependencies": {
+		"ava": "^4.0.1",
+		"delay": "^5.0.0",
+		"get-stream": "^6.0.1",
+		"tsd": "^0.19.1",
+		"xo": "^0.47.0"
+	}
+}
