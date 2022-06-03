@@ -1,4 +1,4 @@
-import {Transform as TransformStream, TransformOptions} from 'node:stream';
+import {type Transform as TransformStream, type TransformOptions} from 'node:stream';
 
 export type Options = Omit<TransformOptions, 'transform' | 'flush'>;
 

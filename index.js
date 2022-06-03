@@ -30,7 +30,7 @@ export default function transformStream(options = {}, transformer, flusher) {
 
 			(async () => {
 				try {
-					for await (const chunk of flusher()) {
+					for await (const chunk of flusher(this)) {
 						this.push(chunk);
 					}
 

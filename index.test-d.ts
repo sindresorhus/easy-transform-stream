@@ -1,4 +1,4 @@
-import {Transform as TransformStream} from 'node:stream';
+import {type Transform as TransformStream} from 'node:stream';
 import {expectType} from 'tsd';
 import transformStream from './index.js';
 
