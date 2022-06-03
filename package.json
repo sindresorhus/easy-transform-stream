@@ -1,6 +1,6 @@
 {
 	"name": "easy-transform-stream",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Create a transform stream using await instead of callbacks",
 	"license": "MIT",
 	"repository": "sindresorhus/easy-transform-stream",
