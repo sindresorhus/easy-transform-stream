@@ -5,7 +5,7 @@ export type Options = Omit<TransformOptions, 'transform' | 'flush'>;
 /**
 Receives each chunk and is expected to return a transformed chunk.
 */
-export type Transformer = (chunk: unknown, encoding: BufferEncoding, stream: TransformStream) => Promise<unknown | void>;
+export type Transformer = (chunk: unknown, encoding: BufferEncoding, stream: TransformStream) => Promise<unknown>;
 
 /**
 Yield additional chunks at the end of the stream.

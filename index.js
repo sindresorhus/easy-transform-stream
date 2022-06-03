@@ -1,6 +1,6 @@
 import {Transform as TransformStream} from 'node:stream';
 
-export default function transformStream(options = {}, transformer, flusher) { // eslint-disable-line default-param-last
+export default function transformStream(options = {}, transformer, flusher) {
 	if (typeof options === 'function') {
 		flusher = transformer;
 		transformer = options;
